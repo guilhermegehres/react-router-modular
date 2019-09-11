@@ -46,7 +46,7 @@ var PrivateRoute = (function (_super) {
         var _this = this;
         var routeData = __assign({}, this.props);
         var Component = routeData.component;
-        var rest = __assign(__assign({}, routeData), { component: undefined });
+        var rest = __assign({}, routeData, { component: undefined });
         return <Route {...rest} render={function (props) { return (_this.runGuards()
             ? <Component {...props}/>
             : <div>not auth</div>); }}/>;
