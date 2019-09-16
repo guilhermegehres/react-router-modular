@@ -1,6 +1,6 @@
 {
   "name": "react-router-modular",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "types": "./src/index.ts",
@@ -39,6 +39,5 @@
     "@types/react-router-dom": "^4.3.5",
     "@types/uuid": "^3.4.5"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
